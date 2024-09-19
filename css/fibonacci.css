@@ -1,0 +1,87 @@
+.fibonacci-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+}
+.fibonacci-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+    border: solid;
+}
+.fibonacci-item:nth-child(1) {
+    background-color: hsl(0, 100%, 10%);
+    flex-grow: 1;
+    padding: 30px;
+}
+.fibonacci-item:nth-child(2) {
+    background-color: hsl(0, 100%, 20%);
+    flex-grow: 1;
+}
+.fibonacci-item:nth-child(3) {
+    background-color: hsl(0, 100%, 30%);
+    flex-grow: 2;
+}
+.fibonacci-item:nth-child(4) {
+    background-color: hsl(0, 100%, 40%);
+    flex-grow: 3;
+}
+.fibonacci-item:nth-child(5) {
+    background-color: hsl(0, 100%, 50%);
+    flex-grow: 5;
+}
+.fibonacci-item:nth-child(6) {
+    background-color: hsl(0, 100%, 60%);
+    flex-grow: 8;
+}
+.fibonacci-item:nth-child(7) {
+    background-color: hsl(0, 100%, 70%);
+    flex-grow: 13;
+}
+.fibonacci-item:nth-child(8) {
+    background-color: hsl(0, 100%, 80%);
+    flex-grow: 21;
+}
+.fibonacci-item:nth-child(9) {
+    background-color: hsl(0, 100%, 90%);
+    flex-grow: 34;
+}
+.fibonacci-item2:nth-child(1) {
+    background-color: hsl(0, 100%, 90%);
+    flex-grow: 34;
+    padding: 30px;
+}
+.fibonacci-item2:nth-child(2) {
+    background-color: hsl(0, 100%, 80%);
+    flex-grow: 21;
+}
+.fibonacci-item2:nth-child(3) {
+    background-color: hsl(0, 100%, 70%);
+    flex-grow: 13;
+}
+.fibonacci-item2:nth-child(4) {
+    background-color: hsl(0, 100%, 60%);
+    flex-grow: 8;
+}
+.fibonacci-item2:nth-child(5) {
+    background-color: hsl(0, 100%, 50%);
+    flex-grow: 5;
+}
+.fibonacci-item2:nth-child(6) {
+    background-color: hsl(0, 100%, 40%);
+    flex-grow: 3;
+}
+.fibonacci-item2:nth-child(7) {
+    background-color: hsl(0, 100%, 30%);
+    flex-grow: 2;
+}
+.fibonacci-item2:nth-child(8) {
+    background-color: hsl(0, 100%, 20%);
+    flex-grow: 1;
+}
+.fibonacci-item2:nth-child(9) {
+    background-color: hsl(0, 100%, 10%);
+    flex-grow: 1;
+}
